@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Tip A Tweet",
+  "name": "Pay on Tweets",
   "version": "1.0",
-  "description": "Fills input fields of type number with 1 if they are within a div with id 'Tip-A-Tweet'",
+  "description": "Pay people by just using there tweets",
   "permissions": [
     "activeTab",
     "scripting"
