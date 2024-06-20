@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tip A Tweet",
+  "version": "1.0",
+  "description": "Fills input fields of type number with 1 if they are within a div with id 'Tip-A-Tweet'",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/newIcon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
