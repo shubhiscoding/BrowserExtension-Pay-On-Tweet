@@ -37,7 +37,7 @@ document.getElementById('applyTip').addEventListener('click', () => {
       return;
     }
     if (mainUrl.includes("https://x.com/")) {
-      chrome.tabs.create({ url: `https://tip-a-tweet-base-chain.vercel.app/?amount=${tipValue}/?url="${mainUrl}"`});
+      chrome.tabs.create({ url: `https://payontweets.vercel.app/?amount=${tipValue}/?url="${mainUrl}"`});
     }else {
       Consoleerror.innerHTML = "Invalid tweet URL";
       return;
